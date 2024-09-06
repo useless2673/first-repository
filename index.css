@@ -98,7 +98,7 @@
     background-size: cover;
 }
 .news-head{
-    padding:2rem;
+    padding:2.5rem;
 }
 .heading{
     color:black;
@@ -151,5 +151,40 @@
 .brief:hover{
     color:orangered;
 }
+.foot{
+    padding:2em;
+    background-color:rgb(5, 5, 51);
+    color: #fff;
+}
+h5::after{
+    background: hsl(40, 18%, 97%);
+    content:"";
+    display:block;
+    width:50px;
+    height:2px;
+    margin:5px 0;
+}
+.tip li{
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-bottom:3px;
+}
+.tip li a{
+    text-decoration: none;
+    color:#fff;
+}
+.tip li a::before{
+    content:"\f101";
+    font-family:FontAwesome;
+    padding-right:5px;
+}
+footer{
+    background-color: rgb(2, 2, 33);
+    color: #fff;
+    padding:1.3em;
+}
+
+
 
 
