@@ -1,0 +1,155 @@
+.header{
+    color: #fff;
+    background-color: rgb(248, 114, 4);
+    padding-top:0.75em;
+}
+.menu{
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+} 
+.menu a{
+    text-decoration: none;
+    margin: 0.75em;
+    display:block;
+    color: #fff;
+}
+.menu a:hover{
+    background-color: rgb(171, 81, 6);
+}
+.section-class{
+    background-image: url("https://media.istockphoto.com/id/157528129/photo/mug-on-plate-filled-with-coffee-surrounded-by-coffee-beans.jpg?s=1024x1024&w=is&k=20&c=1p_M42LWjy9uGLp7y3EmX1JE_KXf6OewvwU_kHMO1Gg=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:8rem;
+}
+.title{
+    color:black;
+    background-color: rgba(251, 249, 249, 0.7);
+    padding:0.75em;
+}
+.lead{
+    color:black;
+    background-color: rgba(248, 159, 4, 0.7);
+    padding:0.75em;
+}
+.services{
+    padding:2em;
+}
+.title-ser{
+    text-align:center;
+    margin-bottom:2em;
+}
+.title-ser:after{
+    background: hsl(41, 97%, 48%);
+    content:"";
+    display:block;
+    width:100px;
+    height:3px;
+    margin:20px auto;
+}
+.fa{
+    color:hsl(41, 97%, 48%);
+    font-size:70px;
+    margin-bottom:0.3em;
+    
+}
+.testimonials{
+    padding:2em; 
+    background:url("https://cdn.pixabay.com/photo/2016/12/01/18/17/mobile-phone-1875813_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:4rem;
+    opacity:0.8;
+}
+.testimonials-head
+{
+    text-align: center;
+    color:#fff;
+    text-align:center;
+    margin-bottom:2em; 
+}
+.testimonials-head:after{
+    background: hsl(41, 97%, 48%);
+    content:"";
+    display:block;
+    width:100px;
+    height:3px;
+    margin:20px auto;
+}
+.content{
+    color:rgb(251, 244, 244);
+    font-size:1.1em;
+}
+.pic1{
+    height:70px;
+    width:70px;
+    border:1px solid white;
+    border-radius:50%;
+    background:url("https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_400x400.jpg");
+    background-size: cover;
+}
+.pic2{
+    height:70px;
+    width:70px;
+    border:1px solid white;
+    border-radius:50%;
+    background:url("https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_400x400.jpg");
+    background-size: cover;
+}
+.news-head{
+    padding:2rem;
+}
+.heading{
+    color:black;
+    text-align:center;
+    margin-bottom:2em; 
+}
+.heading:after{
+    background: hsl(41, 97%, 48%);
+    content:"";
+    display:block;
+    width:100px;
+    height:3px;
+    margin:20px auto;
+}
+.scene-1{
+    height:100px;
+    width:130px;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwmZIzhtXyXrecg4gQRdg-9I8hGEYg_Y_spw&s");
+    background-size: cover;
+    margin-bottom:1em;
+}
+.scene-2{
+    height:100px;
+    width:130px;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwmZIzhtXyXrecg4gQRdg-9I8hGEYg_Y_spw&s");
+    background-size: cover;
+    margin-bottom:1em;
+}
+.scene-3{
+    height:100px;
+    width:130px;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwmZIzhtXyXrecg4gQRdg-9I8hGEYg_Y_spw&s");
+    background-size: cover;
+    margin-bottom:1em;
+}
+.scene-4{
+    height:100px;
+    width:130px;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwmZIzhtXyXrecg4gQRdg-9I8hGEYg_Y_spw&s");
+    background-size: cover;
+    margin-bottom:1em;
+}
+.data{
+    margin-bottom:1em;
+}
+.brief{
+    text-decoration:none;
+    color:orange;
+}
+.brief:hover{
+    color:orangered;
+}
+
+
